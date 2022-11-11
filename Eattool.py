@@ -18,7 +18,12 @@ class Eattool(object):
             tang = config["tang"]
             out = config["out"]
     except Exception:
-        pass
+        mian = ["菜单.json 文件格式错误，请检查逗号，中括号，引号等内容是否符合规范"]
+        mixian = ["菜单.json 文件格式错误，请检查逗号，中括号，引号等内容是否符合规范"]
+        rou = ["菜单.json 文件格式错误，请检查逗号，中括号，引号等内容是否符合规范"]
+        shucai = ["菜单.json 文件格式错误，请检查逗号，中括号，引号等内容是否符合规范"]
+        tang = ["菜单.json 文件格式错误，请检查逗号，中括号，引号等内容是否符合规范"]
+        out = ["菜单.json 文件格式错误，请检查逗号，中括号，引号等内容是否符合规范"]
 
 
     def __init__(self):
